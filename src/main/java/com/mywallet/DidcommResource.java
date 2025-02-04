@@ -13,7 +13,7 @@ public class DidcommResource {
     @GET
     @Produces(MediaType.APPLICATION_JSON)
     public Map<String, String> getDidcommUrl() {
-        String didcommUrl = "didcomm://traction-acapy-test.apps.silver.devops.gov.bc.ca?oob=eyJAdHlw..."; // Généré dynamiquement
+        String didcommUrl = "didcomm://traction-acapy-test.apps.silver.devops.gov.bc.ca?oob=eyJAdHlw..."; // Généré dynamiquement l'invitation
 
         Map<String, String> response = new HashMap<>();
         response.put("url", didcommUrl);
